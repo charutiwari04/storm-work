@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Storm Web Hosting Site</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+					<h1 id="logo"><a href="../index.html">STORM</a></h1>
+					<div class="left">
+						<ul class="list">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Our Vision</a></li>
+							<li><a href="#">Documentation</a></li>
+							<li><a href="#">Support</a></li>
+						</ul>
+					</div>
+					<div class="right">
+						<ul class="list">
+							<li><a href="../views/login.html">Login</a></li>
+							<li><a href="../views/register.html">Register</a></li>
+						</ul>
+					</div>
+				</div>
+		</header>
+		<main>
+			<div class="register-cont">
+				<h1 class="regHead">Register</h1>
+						<form action="#" method="post" name="regForm">
+							<label for="username">User Name</label>
+							<input type="text" class="form-control" id="username" placeholder="Username" required>
+							<label for="paswd1">Password</label>
+							<input type="password" class="form-control" id="paswd1" placeholder="Password" required>
+							<label for="paswd2">Confirm Password</label>
+							<input type="password" class="form-control" id="paswd2" placeholder="Confirm Password" required>
+							<label for="email">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Email" required><br>
+							<label>
+								<input type="checkbox"> <span class="remember">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.</span>
+							</label><br><br>
+							<button type="submit" class="btn btn-primary">Register</button>
+						</form>
+
+			</div>
+		</main>
+		<footer>
+			<p class="footer-note">Copyright <span class="glyphicon glyphicon-copyright-mark"></span> storm web hosting company.</p>
+			<ul class="footer-list">
+				<li><a href="#">Terms of Service</a> |</li>
+				<li><a href="#">Privacy Policy</a> |</li>
+				<li><a href="#">Help</a></li>
+			</ul>
+		</footer>
+		<script src="js/jquery-2.4.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/app.js"></script>
+	</body>
+</html>
