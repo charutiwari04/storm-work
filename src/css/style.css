@@ -7,6 +7,9 @@ header{
 	z-index: 1;
 	font-size: 1.2em;
 }
+.other-head{
+	background-color:  #6666ff;
+}
 header ul li{
 	display: inline;
 	padding: 10px;
@@ -26,7 +29,6 @@ header ul li{
 #logo>a{
 	text-decoration: none;
 	color: #FF6666;
-	
 }
 .login-btn, .reg-btn, .list{
 	margin-top: -40px;
@@ -38,6 +40,9 @@ header ul li{
 	float: left;
 	margin-left: -40px;
 }
+.check{
+	width: 100%;
+}
 #main-page{
 	width: 100%;
 	height: 1200px;
@@ -47,17 +52,8 @@ header ul li{
 }
 #login-page, #register-page, #vision-page, #doc-page, #support-page{
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	background-color: #eff7ff;
-	
-}
-.slides, .blogs{
-	width: 100%;
-	height: 600px;
-}
-.carousel-inner{
-	width: 100%;
-	height: 600px;
 }
 .carousel-inner> .item >img{
 	width: 100%;
@@ -123,4 +119,12 @@ footer{
 	background-color: #eff7ff;
 	border-radius: 5px;
 	padding: 5px;
+}
+hr{
+	height: 5px;
+	background-color: #FF6666;
+}
+#doc-page .area-2 ul {
+	list-style-image: url('../imgs/notepad.gif') !important;
+	font-weight: bold;
 }
