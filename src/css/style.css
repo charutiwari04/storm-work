@@ -10,7 +10,13 @@ header{
 .other-head{
 	background-color:  #6666ff;
 }
-header ul li{
+.small-screen{
+	display: none;
+}
+.side-bar{
+	top: -40px;
+}
+.big-screen ul li{
 	display: inline;
 	padding: 10px;
 }
@@ -22,11 +28,11 @@ header ul li{
 	text-decoration: none;
 	border-bottom: 2px solid #FF6666;
 }
-#logo{
+.logo{
 	text-align: center;
 	font-family: "Arial Black", Gadget, sans-serif;
 }
-#logo>a{
+.logo>a{
 	text-decoration: none;
 	color: #FF6666;
 }
@@ -127,4 +133,15 @@ hr{
 #doc-page .area-2 ul {
 	list-style-image: url('../imgs/notepad.gif') !important;
 	font-weight: bold;
+}
+@media screen and (max-width: 1195px){
+	.small-screen{
+		display: block;
+	}
+	.big-screen{
+		display: none;
+	}
+	#main-page{
+		height: 1550px;
+	}
 }
